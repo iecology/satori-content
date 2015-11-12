@@ -18,7 +18,7 @@ Similarly when sharing a file or program with someone else you can give them the
 
 This last case is how Satori functions, generally. The software developers that make the tools that are available through Satori publish the checksum of each version. When you use the "Verify" section to get the checksum of something you downloaded, Satori checks to make sure the file you have is the same one the software developers created and shows you a green checkmark and the name and version of the software, assuring you that the program you downloaded was not altered on its way to you.
 
-**How can I verify file using GPG?**  
+**How can I verify files using GPG?**  
 Once you have installed GPG software on your computer, you can use it to certify that the source of a file or program is who you think it is. To do this, however, the file either needs to have an "inline signature" or a "detached signature" provided by whoever produced it and you need to also obtain the public GPG key of the signature producer as well. Many software developers supply both signature files and public keys on their websites.
 
 "Inline signatures" are commonly only used for text files and emails while detached signatures can be used for any file including software you download. An inline signature means your file will end with a block of text that is in the form:
